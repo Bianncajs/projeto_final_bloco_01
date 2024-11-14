@@ -1,6 +1,9 @@
 package ecommerce;
 
 import java.util.Scanner;
+import product.model.InfosDoProduto;
+
+
 
 public class Menu {
 
