@@ -1,6 +1,6 @@
-package product.model;
+package produto.Repository;
 
-import java.util.List;
+import product.model.Produto;
 
 
 public interface ProdutoRepositoy {
@@ -9,7 +9,7 @@ public interface ProdutoRepositoy {
 	public void atualizar(Produto produto);
 	public void deletar(int id);
 	Produto procurarPorId(int id);
-	List<Produto> listarTodas();
+	public void listarTodas();
 
     
     void realizarVenda(int id, int quantidade);
